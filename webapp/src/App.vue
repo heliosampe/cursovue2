@@ -26,9 +26,12 @@
   </div>
 </template>
 
-<script>
+<!-- <script>
 import Contacto from './contacto.vue';
 import RestauranteTOP from './RestauranteTOP.vue';
+import RestaurantesList from './RestaurantesList.vue';
+import Home from './Home.vue';
+
 
 export default {
   name: 'app',
@@ -38,7 +41,7 @@ export default {
     }
   }
 }
-</script>
+</script> -->
 
 <style lang="scss">
 #app {
