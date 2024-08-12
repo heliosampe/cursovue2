@@ -3,10 +3,10 @@
   </template>
   <script>
   export default {
-    name: 'restaurantes-list',
+    name: 'restaurante-top',
     data() {
       return {
-        texto: 'Pagina RESTAURANTES LIST'
+        texto: 'Pagina RESTAURANTE DESTACADOS'
       }
     }
   }

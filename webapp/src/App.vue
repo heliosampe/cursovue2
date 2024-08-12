@@ -19,10 +19,17 @@
 
     <!--CARGANDO COMPONENTE-->
     <home></home>
+    <restauranteList></restauranteList>
+    <contacto></contacto>
+    <restauranteTop></restauranteTop>
+
   </div>
 </template>
 
 <script>
+import Contacto from './contacto.vue';
+import RestauranteTOP from './RestauranteTOP.vue';
+
 export default {
   name: 'app',
   data () {

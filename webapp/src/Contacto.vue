@@ -3,10 +3,10 @@
   </template>
   <script>
   export default {
-    name: 'restaurantes-list',
+    name: 'contacto',
     data() {
       return {
-        texto: 'Pagina RESTAURANTES LIST'
+        texto: 'Pagina CONTACTOS'
       }
     }
   }
