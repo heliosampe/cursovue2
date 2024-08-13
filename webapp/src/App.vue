@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <img src="src/assets/logo.png" alt="Descripción de la imagen">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
-      <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
+      <li><router-link to="/home">Home</router-link></li>
+      <li><router-link to="/Contacto">Contacto</router-link></li>
+      <li><router-link to="/RestauranteList">RestauranteList</router-link></li>
+      <li><router-link to="/RestauranteTop">RestauranteTop</router-link></li>
     </ul>
     <h2>Ecosystem</h2>
     <ul>
@@ -17,11 +17,19 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul>
 
+
+
+    <router-view>
+
+
+    </router-view>
     <!--CARGANDO COMPONENTE-->
+    <!--
     <home></home>
     <restauranteList></restauranteList>
     <contacto></contacto>
     <restauranteTop></restauranteTop>
+    -->
 
   </div>
 </template>
