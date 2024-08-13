@@ -16,7 +16,7 @@ const routes = [
 {path: '/home', component: Home},
 {path: '/', component: Home},
 {path: '/restauranteList', component: RestauranteList},
-{path: '/restauranteTop', component: RestauranteTOP}, 
+{path: '/restauranteTop/:id', name: 'restauranteTop', component: RestauranteTOP}, 
 {path: '/contacto', component: Contacto},
 ];
 

@@ -2,20 +2,20 @@
   <div id="app">
     <img src="src/assets/logo.png" alt="Descripción de la imagen">
     <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
+    <h2>Restaurantes App</h2>
     <ul>
       <li><router-link to="/home">Home</router-link></li>
       <li><router-link to="/Contacto">Contacto</router-link></li>
       <li><router-link to="/RestauranteList">RestauranteList</router-link></li>
-      <li><router-link to="/RestauranteTop">RestauranteTop</router-link></li>
+      <li><router-link :to="{name:'restauranteTop', params:{id: 10}}">RestauranteTop</router-link></li>
     </ul>
-    <h2>Ecosystem</h2>
+<!--     <h2>Ecosystem</h2>
     <ul>
       <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
       <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
       <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
-    </ul>
+    </ul> -->
 
 
 
